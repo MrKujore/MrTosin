@@ -1,0 +1,139 @@
+.button-apply{
+    padding: 8px;
+    border-radius: 20px;
+    transition: 1s;
+}
+.button-apply:hover{
+    background-color:rgb(66,66,171);
+    color: rgb(255,255,255);
+}
+.movingbuttons{
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+.first{
+    overflow: hidden;
+    white-space: nowrap;
+    display: flex;
+    gap: 30px;
+}
+.buttons{
+    animation: top 50s infinite  linear;
+    display: flex;
+    gap: 30px;
+}
+@keyframes top{
+    to{
+        transform: translateX(-100%);
+    }
+}
+.second{
+    overflow: hidden;
+    white-space: nowrap;
+    display: flex;
+    gap: 30px;
+}
+.buttons2{
+    animation: below 50s infinite  linear;
+    display: flex;
+    gap: 30px;
+}
+@keyframes below{
+    to{
+        transform: translateX(100%);
+    }
+}
+.movingbuttons button{
+    background-color: rgb(66,66,171);
+    padding: 9px 35px;
+    color: white;
+    border-radius: 20px;
+}
+.top1{
+display: grid;
+text-align: center;
+margin-top: 30px;
+}
+.htoo{
+    color: rgb(66,66,171) ;
+}
+.span1{
+    color: black;
+}
+.container1{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.hthree{
+    color: rgb(66,66,171);
+    margin-top: 10px;
+}
+.small{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.Buton1{
+    display: inline-block;
+    color: aliceblue;
+    background-color: rgb(66,66,171);
+    padding: 10px;
+    border-radius: 20px;
+}
+.pone{
+    line-height: 30px;
+}
+.smallb{
+    background-color: rgb(66,66,171);
+    color: aliceblue;
+    width: 130px;
+}
+.butons4{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.smallc{
+    background-color: aliceblue;
+    color: black;
+    width: 130px;
+}
+.container2{
+    gap: 30px;
+}
+.down1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.down2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+}
+.down3{
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+    align-items: center;
+
+}
+.brands{
+    display: flex;
+    gap: 30px;
+    line-height: 10px;
+}
+.word1{
+    line-height: 5px;
+}
+
+/* .down4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+} */
